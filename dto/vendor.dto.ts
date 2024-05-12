@@ -1,4 +1,4 @@
-export interface createVendorDto {
+export interface CreateVendorDto {
     name: string;
     ownerName: string;
     foodType: string;
