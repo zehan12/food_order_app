@@ -2,8 +2,9 @@
   "name": "food_order_backend",
   "version": "1.0.0",
   "description": "node js microservice it includs all advanced topic of nodejs. Payment, SMS and  Notifications",
-  "main": "index.js",
+  "main": "server.ts",
   "scripts": {
+    "dev": "nodemon server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
